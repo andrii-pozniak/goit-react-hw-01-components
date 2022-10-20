@@ -16,7 +16,7 @@ export const Statistics = ({cards}) => {
 }
 Statistics.propTypes = {
 cards: PropTypes.exact({
-    id:PropTypes.number.isRequired,
+    id:PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   percentage: PropTypes.number.isRequired,
 }),

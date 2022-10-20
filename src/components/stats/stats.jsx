@@ -21,10 +21,7 @@ export const Stats = ({followers,
         </div>
 }
 Stats.propTypes = {
-    followers: PropTypes.string.isRequired,
-    statFollowers: PropTypes.number.isRequired,
-    views: PropTypes.string.isRequired,
-    statsViews: PropTypes.number.isRequired,
-    likes: PropTypes.string.isRequired,
-    statsLikes: PropTypes.number.isRequired    
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
 }
