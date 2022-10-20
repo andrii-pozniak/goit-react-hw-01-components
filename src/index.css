@@ -1,5 +1,8 @@
 @import-normalize; /* bring in normalize.css styles */
 @import 'components/Profile/profile.css';
+@import 'components/stats/stats.css';
+@import 'components/Statistics/statistics.css';
+@import 'components/statsCard/StatCards.css';
 
 body {
   margin: 0;
