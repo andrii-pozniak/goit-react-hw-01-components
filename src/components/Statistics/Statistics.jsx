@@ -15,9 +15,11 @@ export const Statistics = ({cards}) => {
   </section>
 }
 Statistics.propTypes = {
-cards: PropTypes.exact({
-    id:PropTypes.string.isRequired,
+cards: PropTypes.arrayOf(
+  PropTypes.exact({
+  id:PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   percentage: PropTypes.number.isRequired,
-}),
+}),)
+
 }
