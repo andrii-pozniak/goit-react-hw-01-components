@@ -12,8 +12,6 @@ return <ul className="friend_list">
  
 </li>,
 
- 
-
 )}
 </ul>
 

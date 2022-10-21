@@ -4,6 +4,7 @@
 @import 'components/Statistics/statistics.css';
 @import 'components/statsCard/StatCards.css';
 @import 'components/FriendList/FriendList.module.css';
+@import 'components/TransactionHistory/TransactionHistory.css';
 
 
 body {

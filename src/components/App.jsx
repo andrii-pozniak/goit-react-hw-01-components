@@ -3,8 +3,12 @@ import { Profile } from "./Profile/profile";
 import user from './user.json';
 import data from './data.json';
 import friends from './friends.json';
+import transactions from './transactions.json';
+
 import { Statistics } from "components/Statistics/Statistics";
 import { FriendList } from "components/FriendList/FriendList";
+import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
+
 
 export const App = () => {
   return (
@@ -16,8 +20,9 @@ export const App = () => {
       avatar={user.avatar}  
       stats={user.stats}
       /> 
-    <Statistics cards={data}/>
+      <Statistics cards={data}/>
      <FriendList cardsFriends={friends}/>
+     <TransactionHistory items={transactions}/>
      </>
    
   );
