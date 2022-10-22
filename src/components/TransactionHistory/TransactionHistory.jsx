@@ -9,7 +9,7 @@ return <table className="transaction_history" >
   </tr>
   </thead>
   {items.map(({type, amount, currency, id}) =>
-    <tbody className='item_table'>
+    <tbody className='item_table' key={id}>
     <tr >
       <td className='data_table'>{type}</td>
       <td className='data_table'>{amount}</td>
